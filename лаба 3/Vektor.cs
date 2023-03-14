@@ -158,14 +158,14 @@ namespace лаба_3
             {
                 for (int i = 0; i < mas.Length; i++)
                 {
-                    mas[i] = rand.Next(a, b);
+                    mas[i] = rand.Next(b,a);
                 }
             }
             else
             {
                 for (int i = 0; i < mas.Length; i++)
                 {
-                    mas[i] = rand.Next(b, a);
+                    mas[i] = rand.Next(a, b);
                 }
             }
         }
